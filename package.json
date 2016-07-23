@@ -1,0 +1,23 @@
+{
+  "name": "randomjoke",
+  "version": "1.0.0",
+  "description": "Listen to a random joke",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furti/randomjoke.git"
+  },
+  "author": "furti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furti/randomjoke/issues"
+  },
+  "homepage": "https://github.com/furti/randomjoke#readme",
+  "dependencies": {
+    "@typicode/pegasus": "^0.3.2",
+    "howler": "^2.0.0"
+  }
+}
