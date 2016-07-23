@@ -20,6 +20,10 @@
 
     //Play a random joke on click
     jokeButton.addEventListener('click', function (event) {
+        if (audio) {
+            return;
+        }
+
         var joke = getRandomJoke();
 
         cat.classList.add('shaking');
