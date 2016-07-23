@@ -48,11 +48,53 @@ body {
   font-size: 200px;
   color: #FFFFFF;
   cursor: pointer;
-
   width: 100%;
   padding-top: 50%;
   padding-bottom: 50%;
   line-height: 1em;
   margin-top: -0.6em;
   text-align: center;
+}
+
+.shaking {
+  animation-name: shaking;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shaking {
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+
+.laughing {
+  animation-name: laughing;
+  animation-duration: 1s;
+  animation-delay: 0;
+}
+
+@keyframes laughing {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
 }
