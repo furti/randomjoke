@@ -19,5 +19,8 @@
   "dependencies": {
     "@typicode/pegasus": "^0.3.2",
     "howler": "^2.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.14.0"
   }
 }
