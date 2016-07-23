@@ -25,7 +25,8 @@ body {
 }
 
 .joke-button {
-  width: 20%;
+  width: 2em;
+  font-size: 200px;
 }
 
 .joke-button-inner {
@@ -45,7 +46,6 @@ body {
 
 .cat {
   font-family: EmojiSymbols;
-  font-size: 200px;
   color: #FFFFFF;
   cursor: pointer;
   width: 100%;
