@@ -1,10 +1,1 @@
-[
-    {
-        "name": "H.P. Baxter",
-        "file": "jokes/hpbaxter.mp3"
-    },
-    {
-        "name": "U(h)rheberrechte",
-        "file": "jokes/uhrheberrechte.mp3"
-    }
-]
+[{"name":"hpbaxter.mp3","file":"jokes/hpbaxter.mp3"},{"name":"uhrheberrechte.mp3","file":"jokes/uhrheberrechte.mp3"}]
