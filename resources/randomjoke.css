@@ -104,3 +104,22 @@ body {
     transform: scale3d(1, 1, 1);
   }
 }
+
+.alert {
+  animation-name: alert;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes alert {
+  from, 30%, 70%, to {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
